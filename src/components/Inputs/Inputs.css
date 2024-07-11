@@ -1,0 +1,160 @@
+.inputs-box {
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 24px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .inputs-box form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 8px 24px 8px 24px;
+  }
+  
+  .inputs-box form input {
+    width: 255px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    background: #FFF;
+    padding-left: 19.41px;
+    margin-top: 16px;
+  }
+  
+  .inputs-box form input::placeholder {
+    color: #3D3B48;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    opacity: 0.75;
+  }
+  
+  .error-box {
+    width: 270px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+  }
+  
+  .error {
+    color: #FF7979;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .button {
+    width: 279px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #38CC8B;
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 16px;
+  }
+  
+  .inputs-box-paragraph {
+    margin-top: 8px;
+    width: 249px;
+    color: #BAB7D4;
+    text-align: center;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 24px;
+  }
+  
+  .inputs-box-span {
+    color: #FF7979;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+  }
+  
+  @media screen and (min-width: 1024px) {
+  
+    .inputs-box {
+        width: 540px;
+        height: 585px;
+        margin-left: 45px;
+        margin-bottom: 121px;
+    }
+  
+    .inputs-box form {
+        padding: 20px 40px 0px 40px;
+    }
+  
+    .inputs-box form input {
+        width: 420px;
+        height: 56px;
+        border: 1px solid #5E54A4;
+        background: #FFF;
+        margin-top: 20px;
+        padding-left: 32px;
+    }
+  
+    .error-box {
+        width: 450px;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 6px;
+    }
+    
+    .error {
+        color: #FF7979;
+        font-size: 11px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: normal;
+    }
+  
+    .button {
+        width: 460px;
+        height: 56px;
+        color: #FFF;
+        margin-top: 20px;
+    }
+  
+    .button:hover {
+        background: #77E2B3;
+        cursor: pointer;
+    }
+  
+    .inputs-box-paragraph {
+        width: 100%;
+        line-height: 26px;
+        margin-bottom: 40px;
+        cursor: pointer;
+    }
+  
+    .inputs-box-span {
+        line-height: 26px;
+    }
+  
+  }

@@ -1,0 +1,56 @@
+.title-components {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    width: 327px;
+    height: 80px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.292px;
+    margin-top: 88px;
+}
+
+.title-paragraph{
+    width: 327px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .title-components {
+        margin-left: 165px;
+    }
+
+    .title {
+        width: 525px;
+        height: 131px;
+        color: #FFF;
+        font-size: 50px;
+        line-height: 55px;
+        letter-spacing: -0.521px;
+        text-align: start;
+    }
+
+    .title-paragraph {
+        width: 525px;
+        color: #FFF;
+        font-weight: 500;
+        line-height: 26px;
+        margin-top: 11px;
+        text-align: left;
+    }
+}
+
